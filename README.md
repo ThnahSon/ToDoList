@@ -34,58 +34,6 @@ Một ứng dụng web đơn giản nhưng mạnh mẽ giúp bạn quản lý c�
     * Cors
     * Dotenv
 
-##  Cài Đặt và Chạy Dự Án (Local)
-
-**Yêu cầu:**
-* Node.js (phiên bản 16 trở lên)
-* npm hoặc yarn
-* MongoDB (cài đặt local hoặc sử dụng dịch vụ cloud như MongoDB Atlas)
-
-**Các bước:**
-
-1.  **Clone Repository:**
-    ```bash
-    git clone <URL_REPOSITORY_CỦA_BẠN>
-    cd ToDoList 
-    ```
-
-2.  **Cài đặt Backend:**
-    ```bash
-    cd backend 
-    npm install 
-    # Hoặc: yarn install
-    ```
-    * Tạo file `.env` trong thư mục `backend` và thêm các biến môi trường cần thiết:
-        ```env
-        PORT=5001 # Hoặc cổng bạn muốn
-        DATABASE_URL=<CHUỖI_KẾT_NỐI_MONGODB_CỦA_BẠN> 
-        # Ví dụ: mongodb://localhost:27017/todolist hoặc chuỗi kết nối Atlas
-        NODE_ENV=development # Quan trọng để bật CORS cho localhost
-        ```
-    * Khởi động server backend:
-        ```bash
-        npm run dev # Nếu bạn cấu hình nodemon
-        # Hoặc: npm start 
-        # Hoặc: node server.js
-        ```
-    * Server backend sẽ chạy tại `http://localhost:5001` (hoặc cổng bạn đặt).
-
-3.  **Cài đặt Frontend:**
-    * Mở một terminal **khác**.
-    ```bash
-    cd ../frontend 
-    npm install
-    # Hoặc: yarn install
-    ```
-    * Khởi động server frontend (Vite):
-        ```bash
-        npm run dev
-        # Hoặc: yarn dev
-        ```
-    * Frontend sẽ chạy tại `http://localhost:5173` (hoặc cổng Vite tự chọn).
-
-4.  **Truy cập:** Mở trình duyệt và truy cập `http://localhost:5173`.
-
 ##  Credit
 
 Made by **Nguyễn Thanh Sơn** ❤️
