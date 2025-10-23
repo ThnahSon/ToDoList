@@ -80,6 +80,9 @@ const Footer = ({ completedTasksCount = 0, activeTasksCount = 0 }) => {
           </div>
         </div>
       )}
+      <div className="mt-4 pt-4 border-t border-gray-200/50 text-center text-sm text-gray-500">
+        <p>Made by Nguyễn Thanh Sơn ❤️</p>
+      </div>
     </footer>
   );
 };

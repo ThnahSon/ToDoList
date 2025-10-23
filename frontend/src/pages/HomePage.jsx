@@ -100,7 +100,7 @@ const HomePage = () => {
 
       <div className="container pt-4 sm:pt-6 lg:pt-8 pb-8 mx-auto relative z-10 px-4 sm:px-6 lg:px-8">
         <div className="w-full max-w-4xl mx-auto space-y-4 sm:space-y-6">
-          {/* Header with Stats */}
+          {/* Header */}
           <Header 
             totalTasks={taskBuffer.length}
             activeCount={activeTaskCount}
