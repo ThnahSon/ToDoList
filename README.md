@@ -2,7 +2,7 @@
 
 Một ứng dụng web đơn giản nhưng mạnh mẽ giúp bạn quản lý các nhiệm vụ hàng ngày, theo dõi tiến độ và nâng cao năng suất.
 
-**🔗 Link Demo Trực Tuyến:** [https://todolist-l88c.onrender.com](https://todolist-l88c.onrender.com)
+** Link Demo Trực Tuyến:** [https://todolist-l88c.onrender.com](https://todolist-l88c.onrender.com)
 
 ##  Tính Năng Nổi Bật
 
@@ -18,7 +18,7 @@ Một ứng dụng web đơn giản nhưng mạnh mẽ giúp bạn quản lý c�
 * **Theo Dõi Tiến Độ:** Thanh tiến trình và thông điệp động viên dựa trên tỷ lệ hoàn thành.
 * **Thiết Kế Responsive:** Giao diện đẹp mắt và hoạt động mượt mà trên cả điện thoại, máy tính bảng và máy tính.
 
-## 🛠️ Công Nghệ Sử Dụng
+##  Công Nghệ Sử Dụng
 
 * **Frontend:**
     * React (với Vite)
