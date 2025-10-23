@@ -26,7 +26,6 @@ const DateTimeFilter = ({ dateQuery, setDateQuery }) => {
           aria-expanded={open}
           className={cn(
             "w-full lg:w-[200px] justify-between",
-            // ĐÃ XÓA: backdrop-blur-sm
             "bg-white/80", 
             "border-2 border-gray-200",
             "hover:border-purple-300 hover:bg-white",
@@ -54,9 +53,9 @@ const DateTimeFilter = ({ dateQuery, setDateQuery }) => {
       <PopoverContent 
         className={cn(
           "w-[calc(100vw-2rem)] sm:w-[250px] p-0",
-          "shadow-2xl border-2 border-gray-100", // Border nhạt hơn chút
+          "shadow-2xl border-2 border-gray-100", 
           "rounded-xl sm:rounded-2xl",
-          // ĐÃ THÊM: Nền trắng đục hơn để dễ đọc
+         
           "bg-white/95" 
         )}
         align="end"
@@ -78,7 +77,7 @@ const DateTimeFilter = ({ dateQuery, setDateQuery }) => {
                     "text-sm sm:text-base",
                     dateQuery === option.value
                       ? "bg-purple-50 text-purple-700 font-semibold"
-                      : "hover:bg-gray-100" // Nền hover rõ ràng
+                      : "hover:bg-gray-100" 
                   )}
                 >
                   <Calendar className={cn(
