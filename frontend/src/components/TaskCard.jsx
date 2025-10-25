@@ -1,4 +1,3 @@
-// Thêm 'useMemo' vào import
 import React, { useState, useRef, useEffect, useMemo } from "react"; 
 import { Card } from "./ui/card";
 import { cn } from "@/lib/utils";
